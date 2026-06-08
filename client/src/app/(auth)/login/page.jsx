@@ -1,0 +1,11 @@
+import LoginForm from '@/modules/auth/components/LoginForm';
+
+export const metadata = { title: 'Login — DSA Sheet' };
+
+export default function LoginPage() {
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4">
+      <LoginForm />
+    </div>
+  );
+}
